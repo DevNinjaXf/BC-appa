@@ -17,7 +17,7 @@ const trustFactors = [
   },
 ];
 
-const Trust2 = () => {
+const Peace2 = () => {
   useEffect(() => {
     AOS.init({ duration: 1800, once: true });
   }, []);
@@ -76,4 +76,4 @@ const Trust2 = () => {
   );
 };
 
-export default Trust2;
+export default Peace2;

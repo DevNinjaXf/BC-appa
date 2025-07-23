@@ -17,7 +17,7 @@ const boxContent = [
   },
 ];
 
-const Trust = () => {
+const Peace = () => {
   useEffect(() => {
     AOS.init({ duration: 1800, once: true });
   }, []);
@@ -75,4 +75,4 @@ const Trust = () => {
   );
 };
 
-export default Trust;
+export default Peace;

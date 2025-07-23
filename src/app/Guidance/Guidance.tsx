@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 
 
-const Guide = () => {
+const Guidance = () => {
 
   useEffect(() => {
     AOS.init({
@@ -162,4 +162,4 @@ const Guide = () => {
   );
 };
 
-export default Guide;
+export default Guidance;

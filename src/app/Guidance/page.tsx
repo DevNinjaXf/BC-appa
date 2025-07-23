@@ -1,9 +1,9 @@
 import React from 'react'
-import Work from './Guide'
+import Guidance from './Guidance'
 
 const page = () => {
   return (
-    <Work />
+    <Guidance />
   )
 }
 
