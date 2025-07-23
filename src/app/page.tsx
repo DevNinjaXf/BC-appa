@@ -3,13 +3,13 @@ import Calculator from "@/components/calculator/calcualtor";
 import Features from "@/app/Features/Features";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
-import Trust from "@/components/trust/trust";
-import Trust2 from "@/components/trust/trust2";
+import Trust from "@/components/trust/Trust";
+import Trust2 from "@/components/trust/Trust2";
 import Appsec1 from "@/app/Appsec1/OurApp";
 import Appsec2 from "@/components/Appsec2/OurApp2";
 import Proofs from "@/app/proofs/proofs";
-import Values from "@/components/values/core values"; 
-import Guide from "@/app/guide/guide";
+import Values from "@/components/values/Corevalues"; 
+import Guide from "@/app/guide/Guide";
 import Articles from "@/app/articles/articles";
 import Questions from "@/app/questions/questions";
 

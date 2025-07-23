@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
-import Overlay from "@/components/extra/Overlay";
+
 
 const CircularProfiles = () => {
   useEffect(() => {

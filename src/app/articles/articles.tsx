@@ -46,9 +46,7 @@ const Articles = () => {
               data-aos-delay="400"
               className="w-full max-w-full sm:max-w-[376px] flex flex-col justify-start gap-5 border border-[#E6E6E6] rounded-2xl p-6 bg-white shadow-md"
             >
-              <span className="text-xs font-medium text-[#7444FD] bg-[#FAF8FF] px-3 py-1 rounded-full w-fit">
-                {item.text}
-              </span>
+             
 
               <h2 className="font-semibold text-xl text-[#282C32] tracking-tight leading-7">
                 {item.head}

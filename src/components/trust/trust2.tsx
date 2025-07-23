@@ -1,7 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-import Overlay from '../extra/Overlay';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,6 +22,7 @@ const Trust2 = () => {
     AOS.init({ duration: 1800, once: true });
   }, []);
 
+  
   return (
     <div className="w-full flex flex-col items-center py-12 sm:py-16 gap-12 sm:gap-20 px-4 sm:px-6 font-[Urbanist] bg-gradient-to-b from-[#f5f3ff] via-[#ede9fe] to-[#faf5ff]">
       

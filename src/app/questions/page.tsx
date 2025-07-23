@@ -1,9 +1,9 @@
 import React from 'react'
-import FAQs from './FAQs'
+import Questions from './questions'
 
 const page = () => {
   return (
-    <FAQs />
+    <Questions />
   )
 }
 

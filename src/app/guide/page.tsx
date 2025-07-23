@@ -1,5 +1,5 @@
 import React from 'react'
-import Work from './guide'
+import Work from './Guide'
 
 const page = () => {
   return (

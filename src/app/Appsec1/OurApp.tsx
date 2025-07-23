@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Overlay from "@/components/extra/Overlay";
+
 
 const Appsec1 = () => {
   return (
