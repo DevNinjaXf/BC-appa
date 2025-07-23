@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-float {
+    animation: float 1s ease-in-out infinite;
+  }
+
+ .animate-pulse-fast {
+  animation: pulse 0.5s ease-in-out infinite;
+}
+
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.15); opacity: 0.7; }
+  }
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.head-h2 {
+    @apply text-5xl font-bold leading-[100%] tracking-[-0.96px] text-[#282C32] capitalize 
+}
+
+.para {
+    @apply font-medium text-[16px] leading-7 tracking-[-0.32px] text-[#858585]
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
